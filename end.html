@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  
+
+  <title>Quiz Results</title>
+</head>
+<body>
+  <div class="container">
+    <div id="end" class="item">
+      <div class="flex-center item">
+        <h1>Your Score is...</h1><h1 id="finalScore">0</h1>
+      </div>
+        <form class="item">
+          <h2 id="end-text">Enter your initials to save your score</h2>
+          <div class="item">
+            <input type="text" name="name" id="username" placeholder="Initials">
+          </div>
+          <div class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save<i class="fas fa-save"></i></div>
+          <a href="quiz.html" class="btn">Play Again<i class="fas fa-redo"></i></a>
+          <a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
+        </form>
+    </div>
+
+  </div>
+<script src="end.js"></script>
+</body>
+</html>
